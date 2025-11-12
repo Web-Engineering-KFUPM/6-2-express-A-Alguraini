@@ -103,7 +103,7 @@ Use app.get(path, callback)
 The callback receives two arguments:
 req → represents the request object (info sent from client)
 res → represents the response object (used to send data to client)
-
+//
 Example:
     app.get("/", (req, res) => {
       res.send("Welcome to the Quote Generator API");
